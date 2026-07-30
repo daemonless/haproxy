@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# Default configuration if not present
+if [ ! -f /config/haproxy.conf ]; then
+  cat <<'EOF' > /config/haproxy.conf
+global
+    log stderr format raw local0 info
+    maxconn 4096
+    user bsd
+    group bsd
+
+defaults
+    log     global
+    mode    http
+    option  httplog
+    option  dontlognull
+    retries 3
+    timeout connect 5000ms
+    timeout client  50000ms
+    timeout server  50000ms
+
+frontend http-in
+    bind *:80
+    default_backend servers
+
+backend servers
+    server server1 127.0.0.1:8080 check
+EOF
+  chown bsd:bsd /config/haproxy.conf
+fi

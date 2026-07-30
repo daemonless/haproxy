@@ -1,0 +1,11 @@
+#!/bin/sh
+exec 2>&1
+
+# Master runs as root to bind <1024; workers drop to bsd via 'user'/'group'
+# in haproxy.conf, same as the nginx-base pattern.
+echo "Starting HAProxy..."
+
+# Signal readiness once haproxy is listening
+s6-ready-when nc -z 127.0.0.1 80
+
+exec /usr/local/sbin/haproxy -W -db -f /config/haproxy.conf

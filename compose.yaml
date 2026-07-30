@@ -1,0 +1,44 @@
+name: haproxy
+
+x-daemonless:
+  title: "HAProxy"
+  icon: ":material-server-network:"
+  category: "Infrastructure"
+  description: "Reliable, high performance TCP/HTTP load balancer and reverse proxy."
+  upstream_url: "https://github.com/haproxy/haproxy"
+  web_url: "https://www.haproxy.org/"
+  freshports_url: "https://www.freshports.org/net/haproxy/"
+  user: "bsd"
+  mlock: false
+  appjail: true
+
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+    volumes:
+      /config: "Configuration directory containing haproxy.conf"
+    ports:
+      80: "HTTP Listener"
+      443: "HTTPS Listener (optional)"
+      8404: "HAProxy Stats Page (optional)"
+
+services:
+  haproxy:
+    image: ghcr.io/daemonless/haproxy:latest
+    container_name: haproxy
+    restart: unless-stopped
+
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/haproxy:/config
+
+    ports:
+      - 80:80
+      - 443:443
+      - 8404:8404
