@@ -20,7 +20,7 @@ Reliable, high performance TCP/HTTP load balancer and reverse proxy.
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `3.4` / `3.4-pkg-latest` / `3.4.1` / `latest` / `pkg` / `pkg-latest` | HAProxy 3.4 release branch installed from FreeBSD latest packages. | Most users. Matches Linux Docker behavior. |
+| `3.4` / `3.4-pkg-latest` / `3.4.1` / `latest` / `pkg` / `pkg-latest` | HAProxy 3.4 release branch installed from FreeBSD latest packages. | Most users — recommended. |
 | `3.3` / `3.3-pkg-latest` / `3.3.11` | HAProxy 3.3 release branch installed from FreeBSD latest packages. | Alternative build. |
 | `3.2` / `3.2-pkg-latest` / `3.2.20` / `lts` | HAProxy 3.2 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
 | `3.0` / `3.0-pkg-latest` / `3.0.24` | HAProxy 3.0 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
@@ -90,9 +90,9 @@ services:
     name: haproxy
     options:
       - container: 'boot args:--pull'
-      - expose: '80:80 proto:tcp' \
-      - expose: '443:443 proto:tcp' \
-      - expose: '8404:8404 proto:tcp' \
+      - expose: '80:80 proto:tcp'
+      - expose: '443:443 proto:tcp'
+      - expose: '8404:8404 proto:tcp'
     oci:
       user: root
       environment:
