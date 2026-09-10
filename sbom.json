@@ -1,661 +1,11 @@
 {
-  "generated": "2026-08-26T12:29:35Z",
+  "generated": "2026-09-10T19:36:21Z",
   "image": "haproxy",
   "tags": {
-    "2.4-lua-pkg-latest": {
-      "app_version": "2.4.35",
-      "arch": "amd64",
-      "generated": "2026-08-26T08:02:24Z",
-      "packages": {
-        "dotnet": [],
-        "freebsd": [
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-audit-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-blocklist",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-bzip2-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-certctl",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-clibs",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "CDDL-1.0"
-            ],
-            "name": "FreeBSD-ctf-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-fetch",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-kerberos-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libarchive",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libbsdstat",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libcasper",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libexecinfo",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libldns",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libmagic",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libucl",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-locales",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-mtree",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-ncurses-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-openssl",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-pam-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-rc",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-runtime",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-tcpd",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-ufs-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-utilities",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-xz-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "CDDL-1.0"
-            ],
-            "name": "FreeBSD-zfs-lib",
-            "version": "15.1p1"
-          },
-          {
-            "licenses": [
-              "Zlib"
-            ],
-            "name": "FreeBSD-zlib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "PD"
-            ],
-            "name": "FreeBSD-zoneinfo",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-zstd-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "MPL20"
-            ],
-            "name": "ca_root_nss",
-            "version": "3.126.1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
-          },
-          {
-            "licenses": [
-              "GPLv2",
-              "LGPL21"
-            ],
-            "name": "haproxy24-lua",
-            "version": "2.4.35"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "jq",
-            "version": "1.8.2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "libedit",
-            "version": "3.1.20260512,1"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "lua53",
-            "version": "5.3.6_1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "oniguruma",
-            "version": "6.9.10"
-          },
-          {
-            "licenses": [
-              "BSD3CLAUSE"
-            ],
-            "name": "pcre",
-            "version": "8.45_4"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "pkg",
-            "version": "2.8.4"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
-          }
-        ],
-        "go": [],
-        "java": [],
-        "node": [],
-        "php": [],
-        "python": [],
-        "ruby": [],
-        "rust": []
-      },
-      "source": "pkg",
-      "summary": {
-        "dotnet": 0,
-        "freebsd": 43,
-        "go": 0,
-        "java": 0,
-        "node": 0,
-        "php": 0,
-        "python": 0,
-        "ruby": 0,
-        "rust": 0,
-        "total": 43
-      }
-    },
-    "2.4-pkg-latest": {
-      "app_version": "2.4.35",
-      "arch": "amd64",
-      "generated": "2026-08-26T08:02:43Z",
-      "packages": {
-        "dotnet": [],
-        "freebsd": [
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-audit-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-blocklist",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-bzip2-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-certctl",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-clibs",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "CDDL-1.0"
-            ],
-            "name": "FreeBSD-ctf-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-fetch",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-kerberos-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libarchive",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libbsdstat",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libcasper",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libexecinfo",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libldns",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libmagic",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libucl",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-locales",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-mtree",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-ncurses-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-openssl",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-pam-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-rc",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-runtime",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-tcpd",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-ufs-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-utilities",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-xz-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "CDDL-1.0"
-            ],
-            "name": "FreeBSD-zfs-lib",
-            "version": "15.1p1"
-          },
-          {
-            "licenses": [
-              "Zlib"
-            ],
-            "name": "FreeBSD-zlib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "PD"
-            ],
-            "name": "FreeBSD-zoneinfo",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-zstd-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "MPL20"
-            ],
-            "name": "ca_root_nss",
-            "version": "3.126.1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
-          },
-          {
-            "licenses": [
-              "GPLv2",
-              "LGPL21"
-            ],
-            "name": "haproxy24",
-            "version": "2.4.35"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "jq",
-            "version": "1.8.2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "oniguruma",
-            "version": "6.9.10"
-          },
-          {
-            "licenses": [
-              "BSD3CLAUSE"
-            ],
-            "name": "pcre",
-            "version": "8.45_4"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "pkg",
-            "version": "2.8.4"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
-          }
-        ],
-        "go": [],
-        "java": [],
-        "node": [],
-        "php": [],
-        "python": [],
-        "ruby": [],
-        "rust": []
-      },
-      "source": "pkg",
-      "summary": {
-        "dotnet": 0,
-        "freebsd": 41,
-        "go": 0,
-        "java": 0,
-        "node": 0,
-        "php": 0,
-        "python": 0,
-        "ruby": 0,
-        "rust": 0,
-        "total": 41
-      }
-    },
     "2.6-lua-pkg-latest": {
-      "app_version": "2.6.32",
+      "app_version": "2.6.33",
       "arch": "amd64",
-      "generated": "2026-08-26T08:01:52Z",
+      "generated": "2026-09-10T19:34:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -797,7 +147,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -825,7 +175,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -888,7 +238,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -903,7 +253,7 @@
               "LGPL21"
             ],
             "name": "haproxy26-lua",
-            "version": "2.6.32"
+            "version": "2.6.33"
           },
           {
             "licenses": [
@@ -938,7 +288,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -985,9 +335,9 @@
       }
     },
     "2.6-pkg-latest": {
-      "app_version": "2.6.32",
+      "app_version": "2.6.33",
       "arch": "amd64",
-      "generated": "2026-08-26T12:29:03Z",
+      "generated": "2026-09-10T19:34:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1129,7 +479,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -1157,7 +507,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -1220,7 +570,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -1235,7 +585,7 @@
               "LGPL21"
             ],
             "name": "haproxy26",
-            "version": "2.6.32"
+            "version": "2.6.33"
           },
           {
             "licenses": [
@@ -1256,7 +606,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -1303,9 +653,9 @@
       }
     },
     "2.8-lua-pkg-latest": {
-      "app_version": "2.8.27",
+      "app_version": "2.8.28",
       "arch": "amd64",
-      "generated": "2026-08-26T08:03:34Z",
+      "generated": "2026-09-10T19:34:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1447,7 +797,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -1475,7 +825,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -1538,7 +888,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -1553,7 +903,7 @@
               "LGPL21"
             ],
             "name": "haproxy28-lua",
-            "version": "2.8.27"
+            "version": "2.8.28"
           },
           {
             "licenses": [
@@ -1588,7 +938,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -1635,9 +985,9 @@
       }
     },
     "2.8-pkg-latest": {
-      "app_version": "2.8.27",
+      "app_version": "2.8.28",
       "arch": "amd64",
-      "generated": "2026-08-26T08:03:22Z",
+      "generated": "2026-09-10T19:34:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1779,7 +1129,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -1807,7 +1157,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -1870,7 +1220,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -1885,7 +1235,7 @@
               "LGPL21"
             ],
             "name": "haproxy28",
-            "version": "2.8.27"
+            "version": "2.8.28"
           },
           {
             "licenses": [
@@ -1906,7 +1256,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -1953,9 +1303,9 @@
       }
     },
     "3.0-lua-pkg-latest": {
-      "app_version": "3.0.26",
+      "app_version": "3.0.27",
       "arch": "amd64",
-      "generated": "2026-08-26T08:02:06Z",
+      "generated": "2026-09-10T19:34:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2097,7 +1447,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2125,7 +1475,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2188,7 +1538,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -2203,7 +1553,7 @@
               "LGPL21"
             ],
             "name": "haproxy30-lua",
-            "version": "3.0.26"
+            "version": "3.0.27"
           },
           {
             "licenses": [
@@ -2238,7 +1588,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -2285,9 +1635,9 @@
       }
     },
     "3.0-pkg-latest": {
-      "app_version": "3.0.26",
+      "app_version": "3.0.27",
       "arch": "amd64",
-      "generated": "2026-08-26T07:56:44Z",
+      "generated": "2026-09-10T19:34:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2429,7 +1779,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2457,7 +1807,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2520,7 +1870,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -2535,7 +1885,7 @@
               "LGPL21"
             ],
             "name": "haproxy30",
-            "version": "3.0.26"
+            "version": "3.0.27"
           },
           {
             "licenses": [
@@ -2556,7 +1906,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -2603,9 +1953,9 @@
       }
     },
     "3.0-wolfssl-pkg-latest": {
-      "app_version": "3.0.26",
+      "app_version": "3.0.27",
       "arch": "amd64",
-      "generated": "2026-08-26T08:01:46Z",
+      "generated": "2026-09-10T19:35:42Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2747,7 +2097,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2775,7 +2125,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2838,7 +2188,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -2853,7 +2203,7 @@
               "LGPL21"
             ],
             "name": "haproxy30-wolfssl",
-            "version": "3.0.26"
+            "version": "3.0.27"
           },
           {
             "licenses": [
@@ -2874,7 +2224,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -2928,9 +2278,9 @@
       }
     },
     "3.2-lua-pkg-latest": {
-      "app_version": "3.2.22",
+      "app_version": "3.2.23",
       "arch": "amd64",
-      "generated": "2026-08-26T07:59:35Z",
+      "generated": "2026-09-10T19:34:42Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3072,7 +2422,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -3100,7 +2450,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -3163,7 +2513,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -3178,7 +2528,7 @@
               "LGPL21"
             ],
             "name": "haproxy32-lua",
-            "version": "3.2.22"
+            "version": "3.2.23"
           },
           {
             "licenses": [
@@ -3213,7 +2563,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -3260,9 +2610,9 @@
       }
     },
     "3.2-pkg-latest": {
-      "app_version": "3.2.22",
+      "app_version": "3.2.23",
       "arch": "amd64",
-      "generated": "2026-08-26T08:04:54Z",
+      "generated": "2026-09-10T19:35:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3404,7 +2754,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -3432,7 +2782,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -3495,7 +2845,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -3510,7 +2860,7 @@
               "LGPL21"
             ],
             "name": "haproxy32",
-            "version": "3.2.22"
+            "version": "3.2.23"
           },
           {
             "licenses": [
@@ -3531,7 +2881,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -3578,9 +2928,9 @@
       }
     },
     "3.2-wolfssl-pkg-latest": {
-      "app_version": "3.2.22",
+      "app_version": "3.2.23",
       "arch": "amd64",
-      "generated": "2026-08-26T07:59:25Z",
+      "generated": "2026-09-10T19:33:56Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3722,7 +3072,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -3750,7 +3100,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -3813,7 +3163,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -3828,7 +3178,7 @@
               "LGPL21"
             ],
             "name": "haproxy32-wolfssl",
-            "version": "3.2.22"
+            "version": "3.2.23"
           },
           {
             "licenses": [
@@ -3849,7 +3199,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -3903,9 +3253,9 @@
       }
     },
     "3.3-lua-pkg-latest": {
-      "app_version": "3.3.13",
+      "app_version": "3.3.14",
       "arch": "amd64",
-      "generated": "2026-08-26T07:56:20Z",
+      "generated": "2026-09-10T19:34:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4047,7 +3397,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4075,7 +3425,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4138,7 +3488,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -4153,7 +3503,7 @@
               "LGPL21"
             ],
             "name": "haproxy33-lua",
-            "version": "3.3.13"
+            "version": "3.3.14"
           },
           {
             "licenses": [
@@ -4188,7 +3538,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -4235,9 +3585,9 @@
       }
     },
     "3.3-pkg-latest": {
-      "app_version": "3.3.13",
+      "app_version": "3.3.14",
       "arch": "amd64",
-      "generated": "2026-08-26T07:55:46Z",
+      "generated": "2026-09-10T19:34:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4379,7 +3729,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4407,7 +3757,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4470,7 +3820,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -4485,7 +3835,7 @@
               "LGPL21"
             ],
             "name": "haproxy33",
-            "version": "3.3.13"
+            "version": "3.3.14"
           },
           {
             "licenses": [
@@ -4506,7 +3856,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -4553,9 +3903,9 @@
       }
     },
     "3.3-wolfssl-pkg-latest": {
-      "app_version": "3.3.13",
+      "app_version": "3.3.14",
       "arch": "amd64",
-      "generated": "2026-08-26T08:05:32Z",
+      "generated": "2026-09-10T19:35:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4697,7 +4047,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4725,7 +4075,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4788,7 +4138,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -4803,7 +4153,7 @@
               "LGPL21"
             ],
             "name": "haproxy33-wolfssl",
-            "version": "3.3.13"
+            "version": "3.3.14"
           },
           {
             "licenses": [
@@ -4824,7 +4174,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -4878,9 +4228,9 @@
       }
     },
     "3.4-lua-pkg-latest": {
-      "app_version": "3.4.3",
+      "app_version": "3.4.4",
       "arch": "amd64",
-      "generated": "2026-08-26T07:59:42Z",
+      "generated": "2026-09-10T19:33:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5022,7 +4372,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -5050,7 +4400,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -5113,7 +4463,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -5128,7 +4478,7 @@
               "LGPL21"
             ],
             "name": "haproxy-lua",
-            "version": "3.4.3"
+            "version": "3.4.4"
           },
           {
             "licenses": [
@@ -5163,7 +4513,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -5210,9 +4560,9 @@
       }
     },
     "3.4-pkg-latest": {
-      "app_version": "3.4.3",
+      "app_version": "3.4.4",
       "arch": "amd64",
-      "generated": "2026-08-26T08:04:13Z",
+      "generated": "2026-09-10T19:34:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5354,7 +4704,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -5382,7 +4732,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -5445,7 +4795,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -5460,7 +4810,7 @@
               "LGPL21"
             ],
             "name": "haproxy",
-            "version": "3.4.3"
+            "version": "3.4.4"
           },
           {
             "licenses": [
@@ -5481,7 +4831,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -5528,9 +4878,9 @@
       }
     },
     "3.4-wolfssl-pkg-latest": {
-      "app_version": "3.4.3",
+      "app_version": "3.4.4",
       "arch": "amd64",
-      "generated": "2026-08-26T08:05:51Z",
+      "generated": "2026-09-10T19:34:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5672,7 +5022,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -5700,7 +5050,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -5763,7 +5113,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -5778,7 +5128,7 @@
               "LGPL21"
             ],
             "name": "haproxy-wolfssl",
-            "version": "3.4.3"
+            "version": "3.4.4"
           },
           {
             "licenses": [
@@ -5799,7 +5149,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -5855,7 +5205,7 @@
     "devel-pkg-latest": {
       "app_version": "3.3.d10",
       "arch": "amd64",
-      "generated": "2026-08-26T08:01:31Z",
+      "generated": "2026-09-10T19:33:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5997,7 +5347,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -6025,7 +5375,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -6088,7 +5438,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -6124,7 +5474,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
