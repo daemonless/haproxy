@@ -20,25 +20,23 @@ Reliable, high performance TCP/HTTP load balancer and reverse proxy.
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `3.4` / `3.4-pkg-latest` / `3.4.1` / `latest` / `pkg` / `pkg-latest` | HAProxy 3.4 release branch installed from FreeBSD latest packages. | Most users — recommended. |
-| `3.3` / `3.3-pkg-latest` / `3.3.11` | HAProxy 3.3 release branch installed from FreeBSD latest packages. | Alternative build. |
-| `3.2` / `3.2-pkg-latest` / `3.2.20` / `lts` | HAProxy 3.2 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
-| `3.0` / `3.0-pkg-latest` / `3.0.24` | HAProxy 3.0 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
-| `2.8` / `2.8-pkg-latest` / `2.8.25` | HAProxy 2.8 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
-| `2.6` / `2.6-pkg-latest` / `2.6.30` | HAProxy 2.6 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
-| `2.4` / `2.4-pkg-latest` / `2.4.35` | HAProxy 2.4 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
+| `3.4` / `3.4-pkg-latest` / `<version>` / `latest` / `pkg` / `pkg-latest` | HAProxy 3.4 release branch installed from FreeBSD latest packages. | Most users — recommended. |
+| `3.3` / `3.3-pkg-latest` / `<version>` | HAProxy 3.3 release branch installed from FreeBSD latest packages. | Alternative build. |
+| `3.2` / `3.2-pkg-latest` / `<version>` / `lts` | HAProxy 3.2 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
+| `3.0` / `3.0-pkg-latest` / `<version>` | HAProxy 3.0 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
+| `2.8` / `2.8-pkg-latest` / `<version>` | HAProxy 2.8 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
+| `2.6` / `2.6-pkg-latest` / `<version>` | HAProxy 2.6 LTS release branch installed from FreeBSD latest packages. | Alternative build. |
 | `devel` / `devel-pkg-latest` | HAProxy development edge release branch installed from FreeBSD latest packages. | Alternative build. |
-| `3.4-lua` / `3.4-lua-pkg-latest` / `3.4.1-lua` / `lua` | HAProxy 3.4 release branch with Lua scripting enabled. | Alternative build. |
-| `3.3-lua` / `3.3-lua-pkg-latest` / `3.3.11-lua` | HAProxy 3.3 release branch with Lua scripting enabled. | Alternative build. |
-| `3.2-lua` / `3.2-lua-pkg-latest` / `3.2.20-lua` | HAProxy 3.2 LTS release branch with Lua scripting enabled. | Alternative build. |
-| `3.0-lua` / `3.0-lua-pkg-latest` / `3.0.24-lua` | HAProxy 3.0 LTS release branch with Lua scripting enabled. | Alternative build. |
-| `2.8-lua` / `2.8-lua-pkg-latest` / `2.8.25-lua` | HAProxy 2.8 LTS release branch with Lua scripting enabled. | Alternative build. |
-| `2.6-lua` / `2.6-lua-pkg-latest` / `2.6.30-lua` | HAProxy 2.6 LTS release branch with Lua scripting enabled. | Alternative build. |
-| `2.4-lua` / `2.4-lua-pkg-latest` / `2.4.35-lua` | HAProxy 2.4 LTS release branch with Lua scripting enabled. | Alternative build. |
-| `3.4-wolfssl` / `3.4-wolfssl-pkg-latest` / `3.4.1-wolfssl` / `wolfssl` | HAProxy 3.4 release branch built with WolfSSL TLS engine. | Alternative build. |
-| `3.3-wolfssl` / `3.3-wolfssl-pkg-latest` / `3.3.11-wolfssl` | HAProxy 3.3 release branch built with WolfSSL TLS engine. | Alternative build. |
-| `3.2-wolfssl` / `3.2-wolfssl-pkg-latest` / `3.2.20-wolfssl` | HAProxy 3.2 LTS release branch built with WolfSSL TLS engine. | Alternative build. |
-| `3.0-wolfssl` / `3.0-wolfssl-pkg-latest` / `3.0.24-wolfssl` | HAProxy 3.0 LTS release branch built with WolfSSL TLS engine. | Alternative build. |
+| `3.4-lua` / `3.4-lua-pkg-latest` / `<version>-lua` / `lua` | HAProxy 3.4 release branch with Lua scripting enabled. | Alternative build. |
+| `3.3-lua` / `3.3-lua-pkg-latest` / `<version>-lua` | HAProxy 3.3 release branch with Lua scripting enabled. | Alternative build. |
+| `3.2-lua` / `3.2-lua-pkg-latest` / `<version>-lua` | HAProxy 3.2 LTS release branch with Lua scripting enabled. | Alternative build. |
+| `3.0-lua` / `3.0-lua-pkg-latest` / `<version>-lua` | HAProxy 3.0 LTS release branch with Lua scripting enabled. | Alternative build. |
+| `2.8-lua` / `2.8-lua-pkg-latest` / `<version>-lua` | HAProxy 2.8 LTS release branch with Lua scripting enabled. | Alternative build. |
+| `2.6-lua` / `2.6-lua-pkg-latest` / `<version>-lua` | HAProxy 2.6 LTS release branch with Lua scripting enabled. | Alternative build. |
+| `3.4-wolfssl` / `3.4-wolfssl-pkg-latest` / `<version>-wolfssl` / `wolfssl` | HAProxy 3.4 release branch built with WolfSSL TLS engine. | Alternative build. |
+| `3.3-wolfssl` / `3.3-wolfssl-pkg-latest` / `<version>-wolfssl` | HAProxy 3.3 release branch built with WolfSSL TLS engine. | Alternative build. |
+| `3.2-wolfssl` / `3.2-wolfssl-pkg-latest` / `<version>-wolfssl` | HAProxy 3.2 LTS release branch built with WolfSSL TLS engine. | Alternative build. |
+| `3.0-wolfssl` / `3.0-wolfssl-pkg-latest` / `<version>-wolfssl` | HAProxy 3.0 LTS release branch built with WolfSSL TLS engine. | Alternative build. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
@@ -165,28 +163,31 @@ Save as `run.sh`, then run `sh run.sh`.
 ### Bastille
 
 > [!WARNING]
-> Bastille's OCI support is **experimental**. It requires `buildah`, shares the host network stack (`inherit`), and persists image-declared volumes under `--data-path`.
+> Bastille's OCI support is **experimental**. It requires `buildah` and shares the host network stack (`inherit`). Mount volumes with `--volume HOST JAIL`; without it, image-declared volumes are stored under `${bastille_volumesdir}/${jail}`.
 
 ```yaml
 services:
   haproxy:
+    name: haproxy
     image: "ghcr.io/daemonless/haproxy:latest"
-    container_name: haproxy
-    network_mode: host  # jail shares host networking
+    network:
+      - mode: host
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=UTC
+    volumes:
+      - "/path/to/containers/haproxy:/config"
 ```
 
-Save as `podman-compose.yml`, then run `bastille up`. Or via CLI:
+Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
 
 ```bash
 bastille create -O \
   --env PUID=1000 \
   --env PGID=1000 \
   --env TZ=UTC \
-  --data-path /path/to/containers/haproxy \
+  --volume /path/to/containers/haproxy /config \
   haproxy ghcr.io/daemonless/haproxy:latest inherit
 ```
 

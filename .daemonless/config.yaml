@@ -10,7 +10,7 @@ build:
       args:
         PACKAGES: "haproxy"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.4", "3.4.1", "latest", "pkg", "pkg-latest"]
+      aliases: ["3.4", "{version}", "latest", "pkg", "pkg-latest"]
       default: true
       tag_desc: "HAProxy 3.4 release branch installed from FreeBSD latest packages."
 
@@ -20,7 +20,7 @@ build:
       args:
         PACKAGES: "haproxy33"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.3", "3.3.11"]
+      aliases: ["3.3", "{version}"]
       tag_desc: "HAProxy 3.3 release branch installed from FreeBSD latest packages."
 
     - tag: "3.2-pkg-latest"
@@ -29,7 +29,7 @@ build:
       args:
         PACKAGES: "haproxy32"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.2", "3.2.20", "lts"]
+      aliases: ["3.2", "{version}", "lts"]
       tag_desc: "HAProxy 3.2 LTS release branch installed from FreeBSD latest packages."
 
     - tag: "3.0-pkg-latest"
@@ -38,7 +38,7 @@ build:
       args:
         PACKAGES: "haproxy30"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.0", "3.0.24"]
+      aliases: ["3.0", "{version}"]
       tag_desc: "HAProxy 3.0 LTS release branch installed from FreeBSD latest packages."
 
     - tag: "2.8-pkg-latest"
@@ -47,7 +47,7 @@ build:
       args:
         PACKAGES: "haproxy28"
         BASE_VERSION: "15.1-latest"
-      aliases: ["2.8", "2.8.25"]
+      aliases: ["2.8", "{version}"]
       tag_desc: "HAProxy 2.8 LTS release branch installed from FreeBSD latest packages."
 
     - tag: "2.6-pkg-latest"
@@ -56,17 +56,8 @@ build:
       args:
         PACKAGES: "haproxy26"
         BASE_VERSION: "15.1-latest"
-      aliases: ["2.6", "2.6.30"]
+      aliases: ["2.6", "{version}"]
       tag_desc: "HAProxy 2.6 LTS release branch installed from FreeBSD latest packages."
-
-    - tag: "2.4-pkg-latest"
-      pkg_name: haproxy24
-      containerfile: Containerfile.pkg
-      args:
-        PACKAGES: "haproxy24"
-        BASE_VERSION: "15.1-latest"
-      aliases: ["2.4", "2.4.35"]
-      tag_desc: "HAProxy 2.4 LTS release branch installed from FreeBSD latest packages."
 
     - tag: "devel-pkg-latest"
       pkg_name: haproxy-devel
@@ -83,7 +74,7 @@ build:
       args:
         PACKAGES: "haproxy-lua"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.4-lua", "3.4.1-lua", "lua"]
+      aliases: ["3.4-lua", "{version}-lua", "lua"]
       tag_desc: "HAProxy 3.4 release branch with Lua scripting enabled."
 
     - tag: "3.3-lua-pkg-latest"
@@ -92,7 +83,7 @@ build:
       args:
         PACKAGES: "haproxy33-lua"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.3-lua", "3.3.11-lua"]
+      aliases: ["3.3-lua", "{version}-lua"]
       tag_desc: "HAProxy 3.3 release branch with Lua scripting enabled."
 
     - tag: "3.2-lua-pkg-latest"
@@ -101,7 +92,7 @@ build:
       args:
         PACKAGES: "haproxy32-lua"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.2-lua", "3.2.20-lua"]
+      aliases: ["3.2-lua", "{version}-lua"]
       tag_desc: "HAProxy 3.2 LTS release branch with Lua scripting enabled."
 
     - tag: "3.0-lua-pkg-latest"
@@ -110,7 +101,7 @@ build:
       args:
         PACKAGES: "haproxy30-lua"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.0-lua", "3.0.24-lua"]
+      aliases: ["3.0-lua", "{version}-lua"]
       tag_desc: "HAProxy 3.0 LTS release branch with Lua scripting enabled."
 
     - tag: "2.8-lua-pkg-latest"
@@ -119,7 +110,7 @@ build:
       args:
         PACKAGES: "haproxy28-lua"
         BASE_VERSION: "15.1-latest"
-      aliases: ["2.8-lua", "2.8.25-lua"]
+      aliases: ["2.8-lua", "{version}-lua"]
       tag_desc: "HAProxy 2.8 LTS release branch with Lua scripting enabled."
 
     - tag: "2.6-lua-pkg-latest"
@@ -128,17 +119,8 @@ build:
       args:
         PACKAGES: "haproxy26-lua"
         BASE_VERSION: "15.1-latest"
-      aliases: ["2.6-lua", "2.6.30-lua"]
+      aliases: ["2.6-lua", "{version}-lua"]
       tag_desc: "HAProxy 2.6 LTS release branch with Lua scripting enabled."
-
-    - tag: "2.4-lua-pkg-latest"
-      pkg_name: haproxy24-lua
-      containerfile: Containerfile.pkg
-      args:
-        PACKAGES: "haproxy24-lua"
-        BASE_VERSION: "15.1-latest"
-      aliases: ["2.4-lua", "2.4.35-lua"]
-      tag_desc: "HAProxy 2.4 LTS release branch with Lua scripting enabled."
 
     - tag: "3.4-wolfssl-pkg-latest"
       pkg_name: haproxy-wolfssl
@@ -146,7 +128,7 @@ build:
       args:
         PACKAGES: "haproxy-wolfssl"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.4-wolfssl", "3.4.1-wolfssl", "wolfssl"]
+      aliases: ["3.4-wolfssl", "{version}-wolfssl", "wolfssl"]
       tag_desc: "HAProxy 3.4 release branch built with WolfSSL TLS engine."
 
     - tag: "3.3-wolfssl-pkg-latest"
@@ -155,7 +137,7 @@ build:
       args:
         PACKAGES: "haproxy33-wolfssl"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.3-wolfssl", "3.3.11-wolfssl"]
+      aliases: ["3.3-wolfssl", "{version}-wolfssl"]
       tag_desc: "HAProxy 3.3 release branch built with WolfSSL TLS engine."
 
     - tag: "3.2-wolfssl-pkg-latest"
@@ -164,7 +146,7 @@ build:
       args:
         PACKAGES: "haproxy32-wolfssl"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.2-wolfssl", "3.2.20-wolfssl"]
+      aliases: ["3.2-wolfssl", "{version}-wolfssl"]
       tag_desc: "HAProxy 3.2 LTS release branch built with WolfSSL TLS engine."
 
     - tag: "3.0-wolfssl-pkg-latest"
@@ -173,5 +155,5 @@ build:
       args:
         PACKAGES: "haproxy30-wolfssl"
         BASE_VERSION: "15.1-latest"
-      aliases: ["3.0-wolfssl", "3.0.24-wolfssl"]
+      aliases: ["3.0-wolfssl", "{version}-wolfssl"]
       tag_desc: "HAProxy 3.0 LTS release branch built with WolfSSL TLS engine."
