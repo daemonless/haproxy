@@ -249,7 +249,7 @@ Save as `haproxy-deploy.yaml`, then run `ansible-playbook haproxy-deploy.yaml`.
 | `443` | TCP | HTTPS Listener (optional) |
 | `8404` | TCP | HAProxy Stats Page (optional) |
 
-**Architectures:** amd64
+**Architectures:** amd64, aarch64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
 **Base:** FreeBSD 15.1
 
