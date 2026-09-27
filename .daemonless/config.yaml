@@ -3,6 +3,9 @@ cit:
   port: 80
 
 build:
+  architectures:
+    - amd64
+    - aarch64
   variants:
     - tag: "3.4-pkg-latest"
       pkg_name: haproxy
