@@ -131,6 +131,10 @@ build:
       args:
         PACKAGES: "haproxy-wolfssl"
         BASE_VERSION: "15.1-latest"
+      # aarch64 latest has no wolfssl package: quarterly there.
+      arch_args:
+        aarch64:
+          BASE_VERSION: "15.1"
       aliases: ["3.4-wolfssl", "{version}-wolfssl", "wolfssl"]
       tag_desc: "HAProxy 3.4 release branch built with WolfSSL TLS engine."
 
@@ -140,6 +144,10 @@ build:
       args:
         PACKAGES: "haproxy33-wolfssl"
         BASE_VERSION: "15.1-latest"
+      # aarch64 latest has no wolfssl package: quarterly there.
+      arch_args:
+        aarch64:
+          BASE_VERSION: "15.1"
       aliases: ["3.3-wolfssl", "{version}-wolfssl"]
       tag_desc: "HAProxy 3.3 release branch built with WolfSSL TLS engine."
 
@@ -149,6 +157,10 @@ build:
       args:
         PACKAGES: "haproxy32-wolfssl"
         BASE_VERSION: "15.1-latest"
+      # aarch64 latest has no wolfssl package: quarterly there.
+      arch_args:
+        aarch64:
+          BASE_VERSION: "15.1"
       aliases: ["3.2-wolfssl", "{version}-wolfssl"]
       tag_desc: "HAProxy 3.2 LTS release branch built with WolfSSL TLS engine."
 
@@ -158,5 +170,9 @@ build:
       args:
         PACKAGES: "haproxy30-wolfssl"
         BASE_VERSION: "15.1-latest"
+      # aarch64 latest has no wolfssl package: quarterly there.
+      arch_args:
+        aarch64:
+          BASE_VERSION: "15.1"
       aliases: ["3.0-wolfssl", "{version}-wolfssl"]
       tag_desc: "HAProxy 3.0 LTS release branch built with WolfSSL TLS engine."
