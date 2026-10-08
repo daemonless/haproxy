@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-08T09:44:50Z",
+  "generated": "2026-10-08T22:12:31Z",
   "image": "haproxy",
   "tags": {
     "2.6-lua-pkg-latest-aarch64": {
       "app_version": "2.6.33",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:32Z",
+      "generated": "2026-10-08T22:01:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -351,7 +351,7 @@
     "2.6-pkg-latest-aarch64": {
       "app_version": "2.6.33",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:32:57Z",
+      "generated": "2026-10-08T22:00:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -683,7 +683,7 @@
     "2.8-lua-pkg-latest-aarch64": {
       "app_version": "2.8.28",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:27Z",
+      "generated": "2026-10-08T22:01:28Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1029,7 +1029,7 @@
     "2.8-pkg-latest-aarch64": {
       "app_version": "2.8.28",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:32:43Z",
+      "generated": "2026-10-08T22:00:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1361,7 +1361,7 @@
     "3.0-lua-pkg-latest-aarch64": {
       "app_version": "3.0.27",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:22Z",
+      "generated": "2026-10-08T22:01:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1707,7 +1707,7 @@
     "3.0-pkg-latest-aarch64": {
       "app_version": "3.0.27",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:32:38Z",
+      "generated": "2026-10-08T22:00:49Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2037,9 +2037,9 @@
       }
     },
     "3.0-wolfssl-pkg-latest-aarch64": {
-      "app_version": "3.0.24_1",
+      "app_version": "3.0.27",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:52Z",
+      "generated": "2026-10-08T22:01:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2301,7 +2301,7 @@
               "LGPL21"
             ],
             "name": "haproxy30-wolfssl",
-            "version": "3.0.24_1"
+            "version": "3.0.27"
           },
           {
             "licenses": [
@@ -2322,14 +2322,14 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.49"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -2350,7 +2350,7 @@
               "GPLv3"
             ],
             "name": "wolfssl",
-            "version": "5.9.2"
+            "version": "5.9.4"
           }
         ],
         "go": [],
@@ -2378,7 +2378,7 @@
     "3.2-lua-pkg-latest-aarch64": {
       "app_version": "3.2.23",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:17Z",
+      "generated": "2026-10-08T22:01:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2724,7 +2724,7 @@
     "3.2-pkg-latest-aarch64": {
       "app_version": "3.2.23",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:32:33Z",
+      "generated": "2026-10-08T22:00:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3054,9 +3054,9 @@
       }
     },
     "3.2-wolfssl-pkg-latest-aarch64": {
-      "app_version": "3.2.20_1",
+      "app_version": "3.2.23",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:47Z",
+      "generated": "2026-10-08T22:01:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3318,7 +3318,7 @@
               "LGPL21"
             ],
             "name": "haproxy32-wolfssl",
-            "version": "3.2.20_1"
+            "version": "3.2.23"
           },
           {
             "licenses": [
@@ -3339,14 +3339,14 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.49"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -3367,7 +3367,7 @@
               "GPLv3"
             ],
             "name": "wolfssl",
-            "version": "5.9.2"
+            "version": "5.9.4"
           }
         ],
         "go": [],
@@ -3395,7 +3395,7 @@
     "3.3-lua-pkg-latest-aarch64": {
       "app_version": "3.3.14",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:12Z",
+      "generated": "2026-10-08T22:01:13Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3741,7 +3741,7 @@
     "3.3-pkg-latest-aarch64": {
       "app_version": "3.3.14",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:32:27Z",
+      "generated": "2026-10-08T22:00:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4071,9 +4071,9 @@
       }
     },
     "3.3-wolfssl-pkg-latest-aarch64": {
-      "app_version": "3.3.11_1",
+      "app_version": "3.3.14",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:42Z",
+      "generated": "2026-10-08T22:01:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4335,7 +4335,7 @@
               "LGPL21"
             ],
             "name": "haproxy33-wolfssl",
-            "version": "3.3.11_1"
+            "version": "3.3.14"
           },
           {
             "licenses": [
@@ -4356,14 +4356,14 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.49"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -4384,7 +4384,7 @@
               "GPLv3"
             ],
             "name": "wolfssl",
-            "version": "5.9.2"
+            "version": "5.9.4"
           }
         ],
         "go": [],
@@ -4412,7 +4412,7 @@
     "3.4-lua-pkg-latest-aarch64": {
       "app_version": "3.4.4",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:07Z",
+      "generated": "2026-10-08T22:01:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4758,7 +4758,7 @@
     "3.4-pkg-latest-aarch64": {
       "app_version": "3.4.4",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:32:23Z",
+      "generated": "2026-10-08T22:00:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5088,9 +5088,9 @@
       }
     },
     "3.4-wolfssl-pkg-latest-aarch64": {
-      "app_version": "3.4.1_1",
+      "app_version": "3.4.4",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:37Z",
+      "generated": "2026-10-08T22:01:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5352,7 +5352,7 @@
               "LGPL21"
             ],
             "name": "haproxy-wolfssl",
-            "version": "3.4.1_1"
+            "version": "3.4.4"
           },
           {
             "licenses": [
@@ -5373,14 +5373,14 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.49"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -5401,7 +5401,7 @@
               "GPLv3"
             ],
             "name": "wolfssl",
-            "version": "5.9.2"
+            "version": "5.9.4"
           }
         ],
         "go": [],
@@ -5429,7 +5429,7 @@
     "devel-pkg-latest-aarch64": {
       "app_version": "3.3.d10",
       "arch": "aarch64",
-      "generated": "2026-10-08T09:33:02Z",
+      "generated": "2026-10-08T22:01:03Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
