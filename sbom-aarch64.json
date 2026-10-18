@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-14T19:25:31Z",
+  "generated": "2026-10-18T08:20:07Z",
   "image": "haproxy",
   "tags": {
     "2.6-lua-pkg-latest-aarch64": {
       "app_version": "2.6.33",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:37Z",
+      "generated": "2026-10-18T08:09:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -351,7 +351,7 @@
     "2.6-pkg-latest-aarch64": {
       "app_version": "2.6.33",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:09Z",
+      "generated": "2026-10-18T08:08:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -683,7 +683,7 @@
     "2.8-lua-pkg-latest-aarch64": {
       "app_version": "2.8.30",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:33Z",
+      "generated": "2026-10-18T08:09:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1029,7 +1029,7 @@
     "2.8-pkg-latest-aarch64": {
       "app_version": "2.8.30",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:04Z",
+      "generated": "2026-10-18T08:08:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1361,7 +1361,7 @@
     "3.0-lua-pkg-latest-aarch64": {
       "app_version": "3.0.29",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:29Z",
+      "generated": "2026-10-18T08:09:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1707,7 +1707,7 @@
     "3.0-pkg-latest-aarch64": {
       "app_version": "3.0.29",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:00Z",
+      "generated": "2026-10-18T08:08:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2039,7 +2039,7 @@
     "3.0-wolfssl-pkg-latest-aarch64": {
       "app_version": "3.0.27",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:54Z",
+      "generated": "2026-10-18T08:09:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2378,7 +2378,7 @@
     "3.2-lua-pkg-latest-aarch64": {
       "app_version": "3.2.25",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:26Z",
+      "generated": "2026-10-18T08:08:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2724,7 +2724,7 @@
     "3.2-pkg-latest-aarch64": {
       "app_version": "3.2.25",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:11:57Z",
+      "generated": "2026-10-18T08:08:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3056,7 +3056,7 @@
     "3.2-wolfssl-pkg-latest-aarch64": {
       "app_version": "3.2.23",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:50Z",
+      "generated": "2026-10-18T08:09:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3395,7 +3395,7 @@
     "3.3-lua-pkg-latest-aarch64": {
       "app_version": "3.3.16",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:22Z",
+      "generated": "2026-10-18T08:08:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3741,7 +3741,7 @@
     "3.3-pkg-latest-aarch64": {
       "app_version": "3.3.16",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:11:44Z",
+      "generated": "2026-10-18T08:08:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4073,7 +4073,7 @@
     "3.3-wolfssl-pkg-latest-aarch64": {
       "app_version": "3.3.14",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:45Z",
+      "generated": "2026-10-18T08:09:16Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4412,7 +4412,7 @@
     "3.4-lua-pkg-latest-aarch64": {
       "app_version": "3.4.6",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:18Z",
+      "generated": "2026-10-18T08:08:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4758,7 +4758,7 @@
     "3.4-pkg-latest-aarch64": {
       "app_version": "3.4.6",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:11:40Z",
+      "generated": "2026-10-18T08:08:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5090,7 +5090,7 @@
     "3.4-wolfssl-pkg-latest-aarch64": {
       "app_version": "3.4.4",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:41Z",
+      "generated": "2026-10-18T08:09:13Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5429,7 +5429,7 @@
     "devel-pkg-latest-aarch64": {
       "app_version": "3.5.d8",
       "arch": "aarch64",
-      "generated": "2026-10-14T19:12:13Z",
+      "generated": "2026-10-18T08:08:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
