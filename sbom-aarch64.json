@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-18T08:20:07Z",
+  "generated": "2026-10-20T01:15:21Z",
   "image": "haproxy",
   "tags": {
     "2.6-lua-pkg-latest-aarch64": {
-      "app_version": "2.6.33",
+      "app_version": "2.6.35",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:09:09Z",
+      "generated": "2026-10-20T01:04:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -267,7 +267,7 @@
               "LGPL21"
             ],
             "name": "haproxy26-lua",
-            "version": "2.6.33"
+            "version": "2.6.35"
           },
           {
             "licenses": [
@@ -349,9 +349,9 @@
       }
     },
     "2.6-pkg-latest-aarch64": {
-      "app_version": "2.6.33",
+      "app_version": "2.6.35",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:08:41Z",
+      "generated": "2026-10-20T01:03:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -613,7 +613,7 @@
               "LGPL21"
             ],
             "name": "haproxy26",
-            "version": "2.6.33"
+            "version": "2.6.35"
           },
           {
             "licenses": [
@@ -681,9 +681,9 @@
       }
     },
     "2.8-lua-pkg-latest-aarch64": {
-      "app_version": "2.8.30",
+      "app_version": "2.8.31",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:09:05Z",
+      "generated": "2026-10-20T01:04:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -945,7 +945,7 @@
               "LGPL21"
             ],
             "name": "haproxy28-lua",
-            "version": "2.8.30"
+            "version": "2.8.31"
           },
           {
             "licenses": [
@@ -1027,9 +1027,9 @@
       }
     },
     "2.8-pkg-latest-aarch64": {
-      "app_version": "2.8.30",
+      "app_version": "2.8.31",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:08:36Z",
+      "generated": "2026-10-20T01:03:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1291,7 +1291,7 @@
               "LGPL21"
             ],
             "name": "haproxy28",
-            "version": "2.8.30"
+            "version": "2.8.31"
           },
           {
             "licenses": [
@@ -1359,9 +1359,9 @@
       }
     },
     "3.0-lua-pkg-latest-aarch64": {
-      "app_version": "3.0.29",
+      "app_version": "3.0.30",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:09:01Z",
+      "generated": "2026-10-20T01:04:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1623,7 +1623,7 @@
               "LGPL21"
             ],
             "name": "haproxy30-lua",
-            "version": "3.0.29"
+            "version": "3.0.30"
           },
           {
             "licenses": [
@@ -1705,9 +1705,9 @@
       }
     },
     "3.0-pkg-latest-aarch64": {
-      "app_version": "3.0.29",
+      "app_version": "3.0.30",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:08:31Z",
+      "generated": "2026-10-20T01:03:49Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1969,7 +1969,7 @@
               "LGPL21"
             ],
             "name": "haproxy30",
-            "version": "3.0.29"
+            "version": "3.0.30"
           },
           {
             "licenses": [
@@ -2039,7 +2039,7 @@
     "3.0-wolfssl-pkg-latest-aarch64": {
       "app_version": "3.0.27",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:09:25Z",
+      "generated": "2026-10-20T01:04:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2376,9 +2376,9 @@
       }
     },
     "3.2-lua-pkg-latest-aarch64": {
-      "app_version": "3.2.25",
+      "app_version": "3.2.26",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:08:57Z",
+      "generated": "2026-10-20T01:04:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2640,7 +2640,7 @@
               "LGPL21"
             ],
             "name": "haproxy32-lua",
-            "version": "3.2.25"
+            "version": "3.2.26"
           },
           {
             "licenses": [
@@ -2722,9 +2722,9 @@
       }
     },
     "3.2-pkg-latest-aarch64": {
-      "app_version": "3.2.25",
+      "app_version": "3.2.26",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:08:27Z",
+      "generated": "2026-10-20T01:03:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2986,7 +2986,7 @@
               "LGPL21"
             ],
             "name": "haproxy32",
-            "version": "3.2.25"
+            "version": "3.2.26"
           },
           {
             "licenses": [
@@ -3056,7 +3056,7 @@
     "3.2-wolfssl-pkg-latest-aarch64": {
       "app_version": "3.2.23",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:09:21Z",
+      "generated": "2026-10-20T01:04:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3393,9 +3393,9 @@
       }
     },
     "3.3-lua-pkg-latest-aarch64": {
-      "app_version": "3.3.16",
+      "app_version": "3.3.17",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:08:52Z",
+      "generated": "2026-10-20T01:04:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3657,7 +3657,7 @@
               "LGPL21"
             ],
             "name": "haproxy33-lua",
-            "version": "3.3.16"
+            "version": "3.3.17"
           },
           {
             "licenses": [
@@ -3739,9 +3739,9 @@
       }
     },
     "3.3-pkg-latest-aarch64": {
-      "app_version": "3.3.16",
+      "app_version": "3.3.17",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:08:22Z",
+      "generated": "2026-10-20T01:03:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4003,7 +4003,7 @@
               "LGPL21"
             ],
             "name": "haproxy33",
-            "version": "3.3.16"
+            "version": "3.3.17"
           },
           {
             "licenses": [
@@ -4073,7 +4073,7 @@
     "3.3-wolfssl-pkg-latest-aarch64": {
       "app_version": "3.3.14",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:09:16Z",
+      "generated": "2026-10-20T01:04:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4410,9 +4410,9 @@
       }
     },
     "3.4-lua-pkg-latest-aarch64": {
-      "app_version": "3.4.6",
+      "app_version": "3.4.7",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:08:48Z",
+      "generated": "2026-10-20T01:04:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4674,7 +4674,7 @@
               "LGPL21"
             ],
             "name": "haproxy-lua",
-            "version": "3.4.6"
+            "version": "3.4.7"
           },
           {
             "licenses": [
@@ -4756,9 +4756,9 @@
       }
     },
     "3.4-pkg-latest-aarch64": {
-      "app_version": "3.4.6",
+      "app_version": "3.4.7",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:08:18Z",
+      "generated": "2026-10-20T01:03:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5020,7 +5020,7 @@
               "LGPL21"
             ],
             "name": "haproxy",
-            "version": "3.4.6"
+            "version": "3.4.7"
           },
           {
             "licenses": [
@@ -5090,7 +5090,7 @@
     "3.4-wolfssl-pkg-latest-aarch64": {
       "app_version": "3.4.4",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:09:13Z",
+      "generated": "2026-10-20T01:04:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5429,7 +5429,7 @@
     "devel-pkg-latest-aarch64": {
       "app_version": "3.5.d8",
       "arch": "aarch64",
-      "generated": "2026-10-18T08:08:44Z",
+      "generated": "2026-10-20T01:04:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
