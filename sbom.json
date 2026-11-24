@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T22:30:19Z",
+  "generated": "2026-11-24T10:47:44Z",
   "image": "haproxy",
   "tags": {
     "2.6-lua-pkg-latest-amd64": {
@@ -328,9 +328,9 @@
       }
     },
     "2.6-pkg-latest-amd64": {
-      "app_version": "2.6.35",
+      "app_version": "2.6.36",
       "arch": "amd64",
-      "generated": "2026-11-18T21:42:57Z",
+      "generated": "2026-11-24T10:45:49Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -585,7 +585,7 @@
               "LGPL21"
             ],
             "name": "haproxy26",
-            "version": "2.6.35"
+            "version": "2.6.36"
           },
           {
             "licenses": [
@@ -613,7 +613,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.2"
+            "version": "2.9.3"
           }
         ],
         "go": [],
@@ -964,9 +964,9 @@
       }
     },
     "2.8-pkg-latest-amd64": {
-      "app_version": "2.8.31",
+      "app_version": "2.8.32",
       "arch": "amd64",
-      "generated": "2026-11-18T22:29:30Z",
+      "generated": "2026-11-24T10:45:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1221,7 +1221,7 @@
               "LGPL21"
             ],
             "name": "haproxy28",
-            "version": "2.8.31"
+            "version": "2.8.32"
           },
           {
             "licenses": [
@@ -1249,7 +1249,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.2"
+            "version": "2.9.3"
           }
         ],
         "go": [],
@@ -1600,9 +1600,9 @@
       }
     },
     "3.0-pkg-latest-amd64": {
-      "app_version": "3.0.30",
+      "app_version": "3.0.31",
       "arch": "amd64",
-      "generated": "2026-11-18T21:43:19Z",
+      "generated": "2026-11-24T10:45:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1857,7 +1857,7 @@
               "LGPL21"
             ],
             "name": "haproxy30",
-            "version": "3.0.30"
+            "version": "3.0.31"
           },
           {
             "licenses": [
@@ -1885,7 +1885,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.2"
+            "version": "2.9.3"
           }
         ],
         "go": [],
@@ -2554,9 +2554,9 @@
       }
     },
     "3.2-pkg-latest-amd64": {
-      "app_version": "3.2.26",
+      "app_version": "3.2.27",
       "arch": "amd64",
-      "generated": "2026-11-18T21:43:20Z",
+      "generated": "2026-11-24T10:46:06Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2811,7 +2811,7 @@
               "LGPL21"
             ],
             "name": "haproxy32",
-            "version": "3.2.26"
+            "version": "3.2.27"
           },
           {
             "licenses": [
@@ -2839,7 +2839,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.2"
+            "version": "2.9.3"
           }
         ],
         "go": [],
@@ -3508,9 +3508,9 @@
       }
     },
     "3.3-pkg-latest-amd64": {
-      "app_version": "3.3.17",
+      "app_version": "3.3.18",
       "arch": "amd64",
-      "generated": "2026-11-18T21:46:20Z",
+      "generated": "2026-11-24T10:46:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3765,7 +3765,7 @@
               "LGPL21"
             ],
             "name": "haproxy33",
-            "version": "3.3.17"
+            "version": "3.3.18"
           },
           {
             "licenses": [
@@ -3793,7 +3793,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.2"
+            "version": "2.9.3"
           }
         ],
         "go": [],
@@ -4462,9 +4462,9 @@
       }
     },
     "3.4-pkg-latest-amd64": {
-      "app_version": "3.4.7",
+      "app_version": "3.4.8",
       "arch": "amd64",
-      "generated": "2026-11-18T21:47:06Z",
+      "generated": "2026-11-24T10:46:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4719,7 +4719,7 @@
               "LGPL21"
             ],
             "name": "haproxy",
-            "version": "3.4.7"
+            "version": "3.4.8"
           },
           {
             "licenses": [
@@ -4747,7 +4747,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.2"
+            "version": "2.9.3"
           }
         ],
         "go": [],
